@@ -1,0 +1,12 @@
+# SnapMyLife -> Flickr importer.
+#
+# Imports photos, title, desc, tags, geo data and created_at timestamp from
+# the SML extracted zipfile to Flickr.
+# 
+# Warning: restarting will create duplicates if Flickr has issues.
+#
+# Requires xmlsimple and flickraw:
+# > gem install xmlsimple flickraw
+#
+# Run from the same directory as the SML export that includes pictures and metadata.xml
+# > ./sml-flickr.rb
